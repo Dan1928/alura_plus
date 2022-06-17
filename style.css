@@ -3,6 +3,7 @@
   --secondary-gray: #C0C0C0;
   --btn-blue: #167BF7;
   --bg-color: #00030C;
+  --btn-effect: #4590eb; 
 
   /* fonts */
   --font-main: 'Inter';
@@ -156,4 +157,8 @@ body {
 
 .lista__link a:hover {
   color: var(--btn-blue);
+}
+
+.container__botao:hover {
+  background-color: var(--btn-effect);
 }
